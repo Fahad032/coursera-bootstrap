@@ -1,0 +1,19 @@
+{
+  "name": "coursera-bootstrap",
+  "version": "1.0.0",
+  "description": "Bootstrap practice with coursera.",
+  "main": "index.js",
+  "repository": "https://github.com/Fahad032/coursera-bootstrap.git",
+  "author": "Fahad Ahmed <fhdplsh032@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  },
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server"
+  }
+}
