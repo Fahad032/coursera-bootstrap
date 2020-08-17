@@ -5,6 +5,7 @@ $background-light: #9575cd;
 $background-pale: #d1c4e9;
 
 $dark-100: #0f0f0f;
+$floralwhite: floralwhite;
 
 // HEIGHT VARIABLES
 $carousel-item-height: 300px;
@@ -78,4 +79,18 @@ address {
   position: absolute;
   bottom: 0px;
   z-index: 1;
+}
+
+// MODAL STYLES
+.modal-content {
+  .modal-header {
+    background: $background-dark;
+    color: $floralwhite;
+    .close{
+        color: $floralwhite;
+    }
+  }
+  .modal-body {
+    background: $background-pale;
+  }
 }
